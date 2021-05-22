@@ -7,16 +7,12 @@ import time
 import datetime 
 import telepot
 from telepot.loop import MessageLoop    # Library function to communicate with telegram bot
-try:
-    import httplib
-except:
-    import http.client as httplib
 
 #print(os.environ) #test 
 
-import pibot_token # imports local file pibot-token.py with telegram bot token
+import pibot_token # imports local file pibot-token.py with telegram bot token. content: token = "xxxx"
 token = pibot_token.token
-import IDList # imports local file IDList.py with allowed telegram users
+import IDList # imports local file IDList.py with allowed telegram users. content: IDList = [xxxxxx, xxxxxx, ...]
 IDList = IDList.IDList
 
 
