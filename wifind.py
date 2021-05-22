@@ -1,4 +1,9 @@
+# Telegram bot Wifi Scanner, scannt nach MAC adresse mit nmap
+# abhängigkeiten:
+# sudo pip3 install python-nmap
+# sudo pip3 install telepot
 # wichtig: mit "sudo python3 wifind.py" starten, sonst findet er keine MAC adressen
+
 from time import sleep
 import os
 import nmap
