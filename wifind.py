@@ -2,7 +2,7 @@
 import os
 import nmap
 
-target_mac = "B0:2A:43:FC:19:2F"
+target_mac = "B0:2A:43:FC:19:2F" #hier die mac adresse vom ziel eintragen
 print("Target Mac: " + target_mac)
 
 nm = nmap.PortScanner()
