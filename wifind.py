@@ -66,7 +66,7 @@ def handle(msg):
             nm.scan(hosts='192.168.0.0/24', arguments='-sP') #hier die IP range eingeben, kann auch z.B. 192.168.1.0/24 sein
             host_list = nm.all_hosts()
             print(host_list)
-            bot.sendMessage(chat_id, str("Liste der gefundenen Geräte:"))
+            bot.sendMessage(chat_id, str("Liste aller gefundenen Geräte:"))
             for host in host_list:
                 if 'mac' in nm[host]['addresses']:
                     print(host+' : '+nm[host]['addresses']['mac'])
