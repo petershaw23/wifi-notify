@@ -73,7 +73,7 @@ def handle(msg):
                     bot.sendMessage(chat_id, (host+' : '+nm[host]['addresses']['mac']))
                     if target_mac == nm[host]['addresses']['mac']:
                         print('Target Found') 
-                        bot.sendMessage(chat_id, str("*Gerät ") + target_mac + str(" gefunden! Alaaaarm!*"), parse_mode= 'Markdown')
+                        bot.sendMessage(chat_id, str("*Gerät ") + target_mac + str(" gefunden! Alaaaaaarrrrm!*"), parse_mode= 'Markdown')
                         bot.sendVideo(chat_id, str("https://media1.tenor.com/images/40b0e2363f0f7ed0d382f1717fe1f774/tenor.gif?itemid=9077342"))
     else:
         bot.sendMessage(chat_id, 'access denied! you suck, telegram user ID# '+str(sender))
