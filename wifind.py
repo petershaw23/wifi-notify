@@ -22,15 +22,13 @@ IDList = IDList.IDList
 
 
 target_mac = "B0:2A:43:FC:19:2F" #hier die mac adresse vom ziel eintragen
-print("Target Mac: " + target_mac)
-
 
    
 def handle(msg):
     
     def logging(status):
         timestamp = datetime.datetime.fromtimestamp(time.time()).strftime('%Y-%m-%d %H:%M:%S')
-        print (str(timestamp) +': '+str(command)+' sent by ID# '+str(sender)+': '+str(status))
+        print (str(timestamp) +': '+str(command)+' sent by telegram user ID# '+str(sender)+': '+str(status))
     
     
     chat_id = msg['chat']['id']
@@ -78,7 +76,7 @@ def handle(msg):
                         bot.sendMessage(chat_id, str("*Target ") + target_mac + str(" found!*"), parse_mode= 'Markdown')
 
     else:
-        bot.sendMessage(chat_id, 'access denied! you suck, ID# '+str(sender))
+        bot.sendMessage(chat_id, 'access denied! you suck, telegram user ID# '+str(sender))
         logging('DENIED!')
 
 bot = telepot.Bot(token) # get token key from from local file pibot-token.py
