@@ -65,15 +65,16 @@ def handle(msg):
         elif command == '/wifi':
             bot.sendMessage(chat_id, str("scanning..."))
             nm = nmap.PortScanner()
-            nm.scan(hosts='192.168.0.0/24', arguments='-sP')
+            nm.scan(hosts='192.168.0.0/24', arguments='-sP') #hier die IP range eingeben, kann auch z.B. 192.168.1.0/24 sein
             host_list = nm.all_hosts()
             print(host_list)
             for host in host_list:
                 if 'mac' in nm[host]['addresses']:
                     print(host+' : '+nm[host]['addresses']['mac'])
+                    bot.sendMessage(chat_id, (host+' : '+nm[host]['addresses']['mac']))
                     if target_mac == nm[host]['addresses']['mac']:
                         print('Target Found') 
-                        bot.sendMessage(chat_id, str("Target found!"))
+                        bot.sendMessage(chat_id, str("Target ") + target_mac + str( "found!"))
 
     else:
         bot.sendMessage(chat_id, 'access denied! you suck, ID# '+str(sender))
