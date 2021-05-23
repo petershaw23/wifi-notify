@@ -61,7 +61,7 @@ def handle(msg):
             timeformat = "d:h:m:s   %d:%d:%d:%d" % (day, hour, minutes, seconds2)
             bot.sendMessage(chat_id, timeformat)
         elif command == '/wifi':
-            bot.sendMessage(chat_id, str("scanning..."))
+            bot.sendMessage(chat_id, str("Suche nach ")+(target_mac)+str(" ..."))
             nm = nmap.PortScanner()
             nm.scan(hosts='192.168.0.0/24', arguments='-sP') #hier die IP range eingeben, kann auch z.B. 192.168.1.0/24 sein
             host_list = nm.all_hosts()
