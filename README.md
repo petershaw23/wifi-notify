@@ -23,7 +23,7 @@ raspian / debian etc:
 `sudo nano wifind.py`
 
 
-1. change "target_mac" in line 24.
+1. change "target_mac" in line 24 (optional)
 2. change "hosts='192.168.**0**.0/24'" in line 66, if IP mask is _not_ 192.168.**0**.X. (192.168.**1**.X is also common)
 
 save and close the file.
