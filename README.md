@@ -8,7 +8,11 @@ Outputs IP- and MAC addresses of found devices in telegram.
 
 raspian / debian etc:
 
+`sudo apt install git`
+
 `git clone https://github.com/petershaw23/wifind-bot/`
+
+`sudo apt install python3-pip`
 
 `sudo pip3 install telepot` installs telepot / telegram library for python
 
