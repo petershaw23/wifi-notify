@@ -42,7 +42,7 @@ https://core.telegram.org/bots#3-how-do-i-create-a-bot
 
 note the secret bot token-key.
 
-optional: define the bot command "wifi" by navigating to "edit bot" -> edit commands.
+define the bot command "wifi" by navigating to "edit bot" -> edit commands.
 
 optional: define the bot command "uptime"... shows the uptime of your host device / raspberry pi.
 
