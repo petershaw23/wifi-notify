@@ -21,6 +21,8 @@ note the secret bot token-key.
 
 create the 2 config files "pibot-token.py" and "IDList.py" in same directory as wifind.py:
 
+`cd wifind-bot`
+
 create token config file:
 
 `sudo nano pibot-token.py`
