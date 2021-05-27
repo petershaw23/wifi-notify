@@ -1,7 +1,7 @@
 # wifind-bot
 telegram bot using nmap to find all mac addresses in local wifi / lan
 
-installation:
+## installation:
 
 git clone https://github.com/petershaw23/wifind-bot/
 
@@ -11,7 +11,7 @@ sudo pip3 install python-nmap
 
 sudo apt install nmap
 
-usage:
+## usage:
 
 create a telegram bot, instructions here:
 
