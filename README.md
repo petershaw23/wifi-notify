@@ -85,7 +85,7 @@ ____
 
 type command, or use pre-defined pop-up-commands (defined via BotFather -> edit bot -> set commands)
 
-`/wifi`  scan and send found devices in a list
+`/wifi`  scan wifi / LAN and send all found devices as a list
 
 `/uptime`  show device / raspberry pi uptime in days:hours:minutes format
 
