@@ -11,7 +11,20 @@ git clone https://github.com/petershaw23/wifind-bot/
 
 `sudo apt install nmap` installs nmap. not sure if needed
 
-## usage:
+## usage / setup:
+
+edit the main script:
+
+`cd wifind-bot`
+
+`sudo nano wifind.py`
+
+
+1. change "target_mac" in line 24.
+2. change  hosts='192.168.**0**.0/24' in line 66, if IP mask is _not_ 192.168.**0**.X. (192.168.**1**.X is also common)
+
+save and close the file.
+
 
 create a telegram bot, instructions here:
 
@@ -21,7 +34,7 @@ note the secret bot token-key.
 
 create the 2 config files "pibot-token.py" and "IDList.py" in same directory as wifind.py:
 
-`cd wifind-bot`
+
 
 create token config file:
 
