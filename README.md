@@ -81,7 +81,7 @@ ____
 
 `sudo python3 wifind.py` starts the bot with _root_ privileges, without root privileges nmap cannot find MAC addresses!
 
-### using the bot
+## using the bot
 
 type command, or use pre-defined commands (defined via bot-father -> edit bot -> edit commands)
 
