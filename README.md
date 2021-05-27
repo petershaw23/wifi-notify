@@ -83,6 +83,8 @@ ____
 
 ### using the bot
 
+type command, or use pre-defined commands (defined via bot-father -> edit bot -> edit commands)
+
 wifi: scan and show found devices
 
 uptime: show device / raspberry pi uptime
