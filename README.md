@@ -23,16 +23,22 @@ create the 2 config files in same directory as wifind.py:
 
 `sudo nano pibot-token.py`
 
+
 content:
 
 `token = "xxxx"` insert telegram bot token-key here
 
+save and close the file.
+
+create 2nd config file:
 
 `sudo nano IDList.py`
 
 content:
 
 `IDList = [xxxxxx, xxxxxx, ...]` insert telegram IDs, that are allowed to use the bot, here. multiple IDs seperated by commas`
+
+save and close the file.
 
 how to find your telegram ID: https://www.alphr.com/telegram-find-user-id/
 
