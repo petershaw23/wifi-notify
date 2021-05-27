@@ -34,7 +34,7 @@ save and close the file.
 ____
 
 ### create a telegram bot 
-instructions here:
+create a new telegram bot by using BotFather, instructions here:
 
 https://core.telegram.org/bots#3-how-do-i-create-a-bot
 
