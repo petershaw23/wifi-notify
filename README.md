@@ -38,7 +38,7 @@ create 2nd config file:
 
 content:
 
-`IDList = [xxxxxx, xxxxxx, ...]` insert telegram IDs, that are allowed to use the bot, here. multiple IDs seperated by commas`
+`IDList = [xxxxxx, xxxxxx, ...]` insert telegram IDs, that are allowed to use the bot, here. multiple IDs seperated by commas
 
 save and close the file.
 
