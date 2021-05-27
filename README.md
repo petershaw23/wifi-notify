@@ -1,5 +1,10 @@
 # wifind-bot
-telegram bot using nmap to find all mac addresses in local wifi / lan
+Telegram bot using nmap to scan for devices in local wifi / LAN.
+
+Outputs IP- and MAC addresses:
+
+![image](https://user-images.githubusercontent.com/44604841/119889914-76131280-bf37-11eb-9a57-cbf3acd40d62.png)
+
 
 ## installation:
 
