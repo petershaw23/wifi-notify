@@ -13,7 +13,8 @@ git clone https://github.com/petershaw23/wifind-bot/
 
 ## usage / setup:
 
-edit the main script:
+
+### edit the main script:
 
 `cd wifind-bot`
 
@@ -25,15 +26,19 @@ edit the main script:
 
 save and close the file.
 
+____
 
-create a telegram bot, instructions here:
+### create a telegram bot 
+instructions here:
 
 https://core.telegram.org/bots#3-how-do-i-create-a-bot
 
 note the secret bot token-key.
 
-create the 2 config files "pibot-token.py" and "IDList.py" in same directory as wifind.py:
+____
 
+### create config files
+create "pibot-token.py" and "IDList.py" in same directory as wifind.py:
 
 
 create token config file:
@@ -59,6 +64,8 @@ content:
 
 save and close the file.
 
+____
 
+### run the script
 
 `sudo python3 wifind.py` starts the bot with _root_ privileges, without root privileges nmap cannot find MAC addresses!
