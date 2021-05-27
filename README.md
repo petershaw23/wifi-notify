@@ -40,7 +40,7 @@ https://core.telegram.org/bots#6-botfather
 
 note the secret bot token-key.
 
-define the bot command "wifi" by navigating to "edit bot" -> edit commands.
+define the bot command "wifi" by navigating to "edit bot" -> "set commands", using BotFather.
 
 optional: define the bot command "uptime"... shows the uptime of your host device / raspberry pi.
 
