@@ -21,7 +21,7 @@ edit the main script:
 
 
 1. change "target_mac" in line 24.
-2. change  hosts='192.168.**0**.0/24' in line 66, if IP mask is _not_ 192.168.**0**.X. (192.168.**1**.X is also common)
+2. change "hosts='192.168.**0**.0/24'" in line 66, if IP mask is _not_ 192.168.**0**.X. (192.168.**1**.X is also common)
 
 save and close the file.
 
