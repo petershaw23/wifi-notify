@@ -1,5 +1,5 @@
 # wifind-bot
-Telegram bot using nmap to scan for devices in local wifi / LAN.
+Telegram bot using nmap to scan for devices in local wifi / LAN, running on raspberry pi
 
 Outputs IP- and MAC addresses:
 
@@ -44,7 +44,9 @@ note the secret bot token-key.
 
 optional: define the bot command "wifi" by navigating to "edit bot" -> edit commands.
 
-(sending "wifi" manually to the bot will work aswell)
+optinal: define the bot command "uptime"... shows the uptime of your host devide / raspberry pi.
+
+(sending "wifi" or "uptime" manually to the bot will work aswell)
 
 ____
 
