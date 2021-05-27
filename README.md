@@ -44,7 +44,7 @@ note the secret bot token-key.
 
 optional: define the bot command "wifi" by navigating to "edit bot" -> edit commands.
 
-optinal: define the bot command "uptime"... shows the uptime of your host devide / raspberry pi.
+optional: define the bot command "uptime"... shows the uptime of your host devide / raspberry pi.
 
 (sending "wifi" or "uptime" manually to the bot will work aswell)
 
