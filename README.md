@@ -41,7 +41,10 @@ instructions here:
 https://core.telegram.org/bots#3-how-do-i-create-a-bot
 
 note the secret bot token-key.
-also, define the bot command "wifi" by navigating to "edit bot" -> edit commands
+
+optional: define the bot command "wifi" by navigating to "edit bot" -> edit commands.
+
+(sending "wifi" manually to the bot will work aswell)
 
 ____
 
