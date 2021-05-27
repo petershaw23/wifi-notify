@@ -40,8 +40,10 @@ content:
 
 `IDList = [xxxxxx, xxxxxx, ...]` insert telegram IDs, that are allowed to use the bot, here. multiple IDs seperated by commas
 
+(how to find your telegram ID: https://www.alphr.com/telegram-find-user-id/ )
+
 save and close the file.
 
-how to find your telegram ID: https://www.alphr.com/telegram-find-user-id/
+
 
 `sudo python3 wifind.py` starts the bot with _root_ privileges, otherwise nmap cannot find MAC addresses!
