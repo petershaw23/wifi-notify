@@ -36,7 +36,7 @@ ____
 ### create a telegram bot 
 create a new telegram bot by using BotFather, instructions here:
 
-https://core.telegram.org/bots#3-how-do-i-create-a-bot
+https://core.telegram.org/bots#6-botfather
 
 note the secret bot token-key.
 
