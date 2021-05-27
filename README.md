@@ -83,7 +83,7 @@ ____
 
 ## using the bot
 
-type command, or use pre-defined commands (defined via bot-father -> edit bot -> edit commands)
+type command, or use pre-defined commands (defined via BotFather -> edit bot -> set commands)
 
 `/wifi`  scan and send found devices in a list
 
