@@ -3,7 +3,9 @@ telegram bot using nmap to find all mac addresses in local wifi / lan
 
 ## installation:
 
-git clone https://github.com/petershaw23/wifind-bot/
+raspian / debian etc:
+
+`git clone https://github.com/petershaw23/wifind-bot/`
 
 `sudo pip3 install telepot` installs telepot / telegram library for python
 
