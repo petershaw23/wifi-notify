@@ -84,5 +84,7 @@ ____
 ### using the bot
 
 wifi: scan and show found devices
+
 uptime: show device / raspberry pi uptime
+
 ![image](https://user-images.githubusercontent.com/44604841/119889914-76131280-bf37-11eb-9a57-cbf3acd40d62.png)
