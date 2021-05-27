@@ -17,7 +17,7 @@ create a telegram bot, instructions here:
 
 https://core.telegram.org/bots#3-how-do-i-create-a-bot
 
-note the bot token-key.
+note the secret bot token-key.
 
 create the 2 config files in same directory as wifind.py:
 
