@@ -85,8 +85,8 @@ ____
 
 type command, or use pre-defined commands (defined via bot-father -> edit bot -> edit commands)
 
-`/wifi`  scan and show found devices
+`/wifi`  scan and send found devices in a list
 
-`/uptime`  show device / raspberry pi uptime
+`/uptime`  show device / raspberry pi uptime in days:hours:minutes format
 
 ![image](https://user-images.githubusercontent.com/44604841/119889914-76131280-bf37-11eb-9a57-cbf3acd40d62.png)
