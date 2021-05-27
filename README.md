@@ -19,7 +19,7 @@ https://core.telegram.org/bots#3-how-do-i-create-a-bot
 
 note the secret bot token-key.
 
-create the 2 config files in same directory as wifind.py:
+create the 2 config files "pibot-token.py" and "IDList.py" in same directory as wifind.py:
 
 first config file:
 
