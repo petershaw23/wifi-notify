@@ -1,9 +1,7 @@
 # wifind-bot
 Telegram bot using nmap to scan for devices in local wifi / LAN, running on raspberry pi
 
-Outputs IP- and MAC addresses:
-
-![image](https://user-images.githubusercontent.com/44604841/119889914-76131280-bf37-11eb-9a57-cbf3acd40d62.png)
+Outputs IP- and MAC addresses of found devices in telegram.
 
 
 ## installation:
@@ -82,3 +80,9 @@ ____
 ### run the script
 
 `sudo python3 wifind.py` starts the bot with _root_ privileges, without root privileges nmap cannot find MAC addresses!
+
+### using the bot
+
+wifi: scan and show found devices
+uptime: show device / raspberry pi uptime
+![image](https://user-images.githubusercontent.com/44604841/119889914-76131280-bf37-11eb-9a57-cbf3acd40d62.png)
