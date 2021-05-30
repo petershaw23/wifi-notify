@@ -53,12 +53,12 @@ optional: define the bot command "uptime"... shows the uptime of your host devic
 ____
 
 ### create config files
-create "pibot-token.py" and "IDList.py" in same directory as wifind.py:
+create "pibot_token.py" and "IDList.py" in same directory as wifind.py:
 
 
 create token config file:
 
-`sudo nano pibot-token.py`
+`sudo nano pibot_token.py`
 
 
 content:
