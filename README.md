@@ -73,7 +73,7 @@ create ID list config file:
 
 content:
 
-`IDList = [xxxxxx, xxxxxx, ...]` insert telegram IDs, that are allowed to use the bot, here. multiple IDs separated by commas. IDs not found in the list are blocked from using the bot.
+`IDList = [xxxxxx, xxxxxx, ...]` insert telegram IDs (should be a number like 123456789), that are allowed to use the bot, here. multiple IDs separated by commas. IDs not found in the list are blocked from using the bot.
 
 (how to find your telegram ID: https://www.alphr.com/telegram-find-user-id/, or start the bot without entering any vaild IDs, then read the python output after sending a message to the bot. the python output will show your telegram ID)
 
