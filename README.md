@@ -32,6 +32,7 @@ raspian / debian etc:
 
 1. change "target_mac" in line 24 (optional)
 2. change "hosts='192.168.**0**.0/24'" in line 66, if IP mask is _not_ 192.168.**0**.X. (192.168.**1**.X is also common)
+   example: if your IP range is 192.168.1.1, change line 66 to "hosts='192.168.**1**.0/24'"
 
 save and close the file.
 
